@@ -46,3 +46,13 @@ a {
     align-items: center;
     width: 100vw;
 }
+
+
+#preloader{
+  background: #000 url(images/circle-loader-gif-2.gif) no-repeat center center;
+  background-size: 15%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
